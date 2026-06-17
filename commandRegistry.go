@@ -36,6 +36,12 @@ func commandHelp(state *state, cache *pokecache.Cache, location string) error {
 	fmt.Println("Usage:")
 	fmt.Println()
 	fmt.Println("help: Displays a help message")
+	fmt.Println("map: Show 20 location areas in Pokemon world")
+	fmt.Println("mapb: Show previous 20 location areas in Pokemon world")
+	fmt.Println("explore: Explore a location area in Pokemon world")
+	fmt.Println("catch: Catch a Pokemon")
+	fmt.Println("inspect: Inspect a caught Pokemon")
+	fmt.Println("pokedex: List all caught Pokemon")
 	fmt.Println("exit: Exit the Pokedex")
 	return nil
 }
