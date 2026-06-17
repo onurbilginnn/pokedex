@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": false,
+  "[go]": {
+    "editor.formatOnSave": false
+  },
+  "gopls": {
+    "formatting.gofumpt": false
+  },
+  "go.formatTool": "gofmt"
+}
